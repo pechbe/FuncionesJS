@@ -1,0 +1,34 @@
+body{
+    background-image: url("./src/javascript.png");
+    background-repeat: no-repeat;
+
+}
+
+.wraper{
+    margin: auto;
+    max-width: 960px;
+    height: 360px;   
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.btn-menu{
+    background-color: rgb(222, 224, 58);
+    border: solid 1px rgb(17, 129, 73);
+    border-radius: 2em;
+    color: black;
+    padding: 10px 1em;
+    width: 200px;
+    font-size: 14px;
+    transition: ease-out 0.9s;
+}
+
+.btn-menu:hover{
+    background-color: rgb(241, 243, 242);
+}
+
+.btn-menu:active {
+    transform: translateY(20px);
+}
